@@ -3,7 +3,9 @@
 </script>
 
 <template>
-    <router-view></router-view>
+    <div>
+        Forum
+    </div>
 </template>
 
 <style scoped>

@@ -1,0 +1,12 @@
+
+
+
+.main-container .problem-set-container {
+    display: flex; !important;
+    justify-content: center; !important;
+}
+
+.main-container .problem-set-container .el-card {
+    width: 1000PX; !important;
+    max-width: 100%; !important;
+}

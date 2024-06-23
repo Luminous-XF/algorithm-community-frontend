@@ -1,0 +1,68 @@
+/*
+    导航栏
+*/
+
+.common-layout header {
+    padding: 0;
+    caret-color: transparent;
+}
+
+.header .el-menu--horizontal {
+    justify-content: center;
+    border-bottom: 0;
+}
+
+.header .header-menu-icon {
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+
+.header-get-started {
+    margin-left: 160px;
+}
+
+.header-profile {
+    margin-left: 160px;
+    display: flex;
+}
+
+.header .header-menu-get-started button {
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid var(--global-font-title-color);
+    border-radius: 30px;
+    color: var(--global-font-title-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.header .header-profile .header-profile-item {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header .header-profile .header-profile-item p {
+    font-size: 14px;
+    color: var(--global-font-title-color);
+    margin-left: 10px;
+}
+
+.el-scrollbar .el-dropdown-menu__item {
+    color: var(--global-font-title-color);
+}
+
+.header-profile-dropdown li span {
+    margin: 5px;
+}
+
+.header-profile-dropdown {
+    width: 230px;
+    caret-color: transparent;
+}
+
+/*.common-layout .main-container {*/
+/*    display: flex;*/
+/*}*/
+
+

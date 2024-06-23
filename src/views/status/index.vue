@@ -3,7 +3,9 @@
 </script>
 
 <template>
-    <router-view></router-view>
+    <div>
+        Status
+    </div>
 </template>
 
 <style scoped>

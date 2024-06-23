@@ -74,13 +74,13 @@ const useMenus = ref([
             </el-menu-item>
 
 
-            <el-menu-item class="header-menu-profile">
-                <HeaderProfile></HeaderProfile>
-            </el-menu-item>
-
-<!--            <el-menu-item class="header-menu-get-started">-->
-<!--                <HeaderGetStarted></HeaderGetStarted>-->
+<!--            <el-menu-item class="header-menu-profile">-->
+<!--                <HeaderProfile></HeaderProfile>-->
 <!--            </el-menu-item>-->
+
+            <el-menu-item class="header-menu-get-started">
+                <HeaderGetStarted></HeaderGetStarted>
+            </el-menu-item>
         </el-menu>
     </div>
 </template>
@@ -91,7 +91,7 @@ const useMenus = ref([
 
 <style>
 .header-profile-dropdown .header-profile-dropdown-item:hover {
-    background-color: var(--global-font-title-hover-dolor);
-    color: var(--global-font-title-color);
+    background-color: var(--global-light-theme-main-hover-color);
+    color: var(--global-light-theme-main-color);
 }
 </style>

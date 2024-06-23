@@ -12,26 +12,28 @@
     border-bottom: 0;
 }
 
+
+
 .header .header-menu-icon {
     margin-bottom: 5px;
     margin-right: 3px;
 }
 
 .header-get-started {
-    margin-left: 160px;
+    margin-left: 80px;
 }
 
 .header-profile {
-    margin-left: 160px;
+    margin-left: 80px;
     display: flex;
 }
 
 .header .header-menu-get-started button {
     background-color: transparent;
     cursor: pointer;
-    border: 1px solid var(--global-font-title-color);
+    border: 1px solid var(--global-light-theme-main-color);
     border-radius: 30px;
-    color: var(--global-font-title-color);
+    color: var(--global-light-theme-main-color);
     transition: all 0.5s ease-in-out;
 }
 
@@ -44,12 +46,12 @@
 
 .header .header-profile .header-profile-item p {
     font-size: 14px;
-    color: var(--global-font-title-color);
+    color: var(--global-light-theme-main-color);
     margin-left: 10px;
 }
 
 .el-scrollbar .el-dropdown-menu__item {
-    color: var(--global-font-title-color);
+    color: var(--global-light-theme-main-color);
 }
 
 .header-profile-dropdown li span {

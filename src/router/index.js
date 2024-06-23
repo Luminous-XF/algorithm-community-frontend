@@ -6,11 +6,6 @@ const routes = [
         redirect: '/home'
     },
     {
-        path: '/login',
-        name: 'login',
-        component: () => import('../views/login/index.vue')
-    },
-    {
         path: '/common-layout',  // 布局页
         name: 'common-layout',
         component: () => import('../components/common-layout/index.vue'),
@@ -54,6 +49,11 @@ const routes = [
                 path: '/faq',  // F.A.Q,
                 name: 'faq',
                 component: () => import('../views/faq/index.vue')
+            },
+            {
+                path: '/login',
+                name: 'login',
+                component: () => import('../views/login/index.vue')
             },
         ]
     }

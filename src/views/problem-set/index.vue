@@ -1,4 +1,6 @@
 <script setup>
+import ProblemList from "./problem-list.vue";
+import ProblemListPagination from "@/views/problem-set/problem-list-pagination.vue";
 
 </script>
 
@@ -11,10 +13,9 @@
                 </div>
             </template>
 
+            <ProblemList></ProblemList>
 
-            <div class="example-pagination-block">
-                <el-pagination layout="prev, pager, next" :total="50" />
-            </div>
+            <ProblemListPagination></ProblemListPagination>
         </el-card>
     </div>
 </template>

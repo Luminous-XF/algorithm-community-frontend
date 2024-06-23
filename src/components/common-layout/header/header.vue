@@ -31,7 +31,7 @@ import HeaderMenu from './header-menu.vue'
 /* 自定义 Menu 中 item 选中时的样式 */
 .header /deep/ .el-menu--horizontal > .el-menu-item.is-active {
     background-color: transparent;
-    border-bottom-color: var(--global-font-title-color);
+    border-bottom-color: var(--global-light-theme-main-color);
 }
 
 .header /deep/ .el-menu--horizontal > .el-menu-item {
@@ -40,12 +40,12 @@ import HeaderMenu from './header-menu.vue'
 
 /* 自定义 Menu 中字体选中时样式 */
 .header /deep/ .el-menu--horizontal > .el-menu-item span {
-    color: var(--global-font-title-color);
+    color: var(--global-light-theme-main-color);
 }
 
 /* 自定义 Menu 中字体选中时样式 */
 .header /deep/ .el-menu--horizontal > .el-menu-item.is-active span {
-    color: var(--global-font-title-color);
+    color: var(--global-light-theme-main-color);
     font-weight: bold;
 }
 
@@ -53,4 +53,10 @@ import HeaderMenu from './header-menu.vue'
     background-color: transparent;
     border: 0 transparent;
 }
+
+
+.header /deep/ .el-menu--horizontal.el-menu {
+    border-bottom: 0;
+}
+
 </style>

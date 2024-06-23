@@ -6,6 +6,4 @@ import '@/assets/css/common-layout.css';
 import '@/assets/css/problem-set.css';
 import '@icon-park/vue-next/styles/index.css';
 
-
-
 createApp(App).use(router).mount('#app')

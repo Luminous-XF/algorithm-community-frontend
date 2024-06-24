@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <div>
-        Rating
+    <div >
+
     </div>
 </template>
 

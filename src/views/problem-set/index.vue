@@ -6,7 +6,7 @@ import ProblemListPagination from "@/views/problem-set/problem-list-pagination.v
 
 <template>
     <div class="problem-set-container">
-        <el-card>
+        <el-card class="problem-set-container-card">
             <template #header>
                 <div class="card-header">
                     <span>Problem Set</span>

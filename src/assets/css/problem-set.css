@@ -3,28 +3,28 @@
  */
 
 /* 题集页容器样式 */
-.main-container .problem-set-container {
+.problem-set-container {
     margin-top: 20px;
     display: flex; !important;
     justify-content: center; !important;
 }
 
 /* 题目列表卡片样式 */
-.main-container .problem-set-container .el-card {
+.problem-set-container .problem-set-container-card {
     caret-color: transparent;
-    width: 1000PX; !important;
+    width: 1200PX; !important;
     max-width: 100%; !important;
     border: 0;
     background-color: var(--global-light-theme-bgcolor);
 }
 
 /* 自定义卡片头部样式 */
-.main-container .el-card .el-card__header {
+.problem-set-container .el-card .el-card__header {
     border-bottom: 2px solid var(--global-light-theme-main-color);
 }
 
 /* 自定义卡片头部标题样式 */
-.main-container .el-card .el-card__header {
+.problem-set-container .el-card .el-card__header {
     color: var(--global-light-theme-main-color);
     font-size: 21px;
     font-weight: bold;
@@ -98,6 +98,9 @@
     font-weight: bold;
 }
 
+/*
+ 分页
+*/
 /* 问题列表分页 */
 .problem-set-container .problem-list-pagination .el-pagination {
     justify-content: center;

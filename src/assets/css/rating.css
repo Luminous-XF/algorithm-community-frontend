@@ -12,7 +12,7 @@
 /* 题目列表卡片样式 */
 .rating-container .rating-container-card {
     caret-color: transparent;
-    width: 1000PX; !important;
+    width: 1200PX; !important;
     max-width: 100%; !important;
     border: 0;
     background-color: var(--global-light-theme-bgcolor);
@@ -56,6 +56,7 @@
 /*提交状态列表边框样式*/
 .rating-container .rating-table .el-table__row td.el-table__cell {
     border-bottom: 1px solid var(--global-light-theme-main-color);
+    padding: 16px 0;
 }
 
 .rating-container .rating-table tr.el-table__row {
@@ -72,7 +73,7 @@
     align-items: center;
 }
 
-/* 排名列表用户信息项样式 */
+/* 排名列表用户 Rank 项样式 */
 .rating-container .rating-table .rating-list-item-userinfo .el-avatar {
     margin-right: 8px;
 }

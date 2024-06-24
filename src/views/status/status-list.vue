@@ -2,7 +2,6 @@
 import {ref} from "vue";
 import LoaderOne from "@/components/dynamic-icon/loader-one.vue";
 import LoaderTwo from "@/components/dynamic-icon/loader-two.vue";
-
 import {
     Correct,
     Error,
@@ -44,7 +43,7 @@ function addClassForStatusItemJudgement(judgement) {
 <template>
     <div class="status-list">
         <el-table class="status-table" :data="statusList">
-            <el-table-column prop="id" label="#" width="100">
+            <el-table-column prop="id" label="#" width="100" align="center">
                 <template #default="scope">
                         <span>{{ scope.row.id }}</span>
                 </template>

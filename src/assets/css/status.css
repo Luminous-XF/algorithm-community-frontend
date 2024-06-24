@@ -39,7 +39,7 @@
     display: flex;
     justify-content: center;
     color: var(--global-light-theme-main-color);
-    /*border-bottom: 1px solid var(--global-light-theme-main-color);*/
+    border-bottom: 1px solid var(--global-light-theme-main-color);
 }
 
 /* 提交状态列表表头样式*/
@@ -53,14 +53,20 @@
 /*    font-size: 16px;*/
 /*}*/
 
-/* 提交状态列表边框样式 */
-/*.status-container .status-table .el-table__row td.el-table__cell {*/
-/*    border-bottom: 1px solid black;*/
-/*}*/
+ /*提交状态列表边框样式*/
+.status-container .status-table .el-table__row td.el-table__cell {
+    border-bottom: 1px solid var(--global-light-theme-main-color);
+}
 
-/*.status-container .status-table th.el-table__cell.is-leaf {*/
-/*    border-bottom: 1px solid black;*/
-/*}*/
+.status-container .status-table tr.el-table__row {
+    border-left: 1px solid var(--global-light-theme-main-color);
+    border-right: 1px solid var(--global-light-theme-main-color);
+
+}
+
+.status-container .status-table th.el-table__cell.is-leaf {
+    border-bottom: 1px solid var(--global-light-theme-main-color);
+}
 
 /* 提交状态信息-Judgement 样式 */
 /* 0-Pending */

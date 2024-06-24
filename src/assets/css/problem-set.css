@@ -31,7 +31,7 @@
 }
 
 /* 取消卡片四周阴影 */
-.main-container .problem-set-container .el-card.is-always-shadow {
+.problem-set-container .el-card.is-always-shadow {
     box-shadow: none;
 }
 
@@ -40,7 +40,7 @@
  题目列表
 */
 /* 题集页卡片 body 部分样式 */
-.main-container .problem-set-container .el-card .el-card__body {
+.problem-set-container .el-card .el-card__body {
 
 }
 

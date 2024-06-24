@@ -6,7 +6,6 @@ import LoaderTwo from "@/components/dynamic-icon/loader-two.vue";
 import {
     Correct,
     Error,
-    Rotation,
 } from '@icon-park/vue-next'
 
 

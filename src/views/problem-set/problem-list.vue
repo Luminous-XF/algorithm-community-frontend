@@ -5,12 +5,12 @@ const problemInfoList = ref([
     {problemId: 10001, problemTitle: 'ABC String', problemJudgeResult: 0},
     {problemId: 10002, problemTitle: 'Balanced Tree Path', problemJudgeResult: 1},
     {problemId: 10003, problemTitle: 'Cramming for Finals', problemJudgeResult: 1},
-    {problemId: 10004, problemTitle: 'Ordered Problem Set', problemJudgeResult: 0},
+    {problemId: 10004, problemTitle: 'Ordered problem Set', problemJudgeResult: 0},
     {problemId: 10005, problemTitle: 'Eccentric Excursion', problemJudgeResult: 2},
     {problemId: 10006, problemTitle: 'ABC String', problemJudgeResult: 0},
     {problemId: 10007, problemTitle: 'Balanced Tree Path', problemJudgeResult: 1},
     {problemId: 10008, problemTitle: 'Cramming for Finals', problemJudgeResult: 1},
-    {problemId: 10009, problemTitle: 'Ordered Problem Set', problemJudgeResult: 0},
+    {problemId: 10009, problemTitle: 'Ordered problem Set', problemJudgeResult: 0},
     {problemId: 10010, problemTitle: 'Eccentric Excursion', problemJudgeResult: 2},
 
 ])

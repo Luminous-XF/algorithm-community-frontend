@@ -34,6 +34,10 @@
     box-shadow: none;
 }
 
+
+/*
+ 提交状态列表
+*/
 /* 提交状态列表布局样式 */
 .status-container .status-table {
     display: flex;

@@ -1,0 +1,78 @@
+/*
+ 问题详情页
+*/
+
+/* 总过题排名页容器样式 */
+.problem-container {
+    margin-top: 20px;
+    display: flex;
+!important;
+    justify-content: center;
+!important;
+}
+
+/* 题目列表卡片样式 */
+.problem-container .el-card {
+    caret-color: transparent;
+    width: 1000PX;
+!important;
+    max-width: 100%;
+!important;
+    border: 0;
+    background-color: var(--global-light-theme-bgcolor);
+}
+
+/* 自定义卡片头部样式 */
+.problem-container .el-card .el-card__header {
+    border-bottom: 2px solid var(--global-light-theme-main-color);
+}
+
+/* 自定义卡片头部标题样式 */
+.problem-container .el-card .el-card__header {
+    color: var(--global-light-theme-main-color);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* 取消卡片四周阴影 */
+.problem-container .el-card.is-always-shadow {
+    box-shadow: none;
+
+}
+
+/* 设置 Markdown 渲染样式 */
+.problem-container .md-editor-preview {
+    font-size: 18px;
+    color: var(--global-light-theme-main-color);
+}
+
+/* 自定义 Markdown 渲染部分布局 */
+.problem-container .md-editor-preview-wrapper {
+    padding: 0;
+    margin-top: -14px;
+}
+
+.problem-container h3 {
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+.problem-container .pre-container {
+    position: relative;
+}
+
+.problem-container .pre-container .copy-button {
+    position: absolute;
+    top: 6px; /* 调整为复制按钮相对于 <pre> 标签顶部的距离 */
+    right: 6px; /* 调整为复制按钮相对于 <pre> 标签右侧的距离 */
+    border: 0;
+    width: 32px;
+    height: 16px;
+}
+
+.problem-container .problem-sample-test-list pre {
+    border: 1px solid var(--global-light-theme-main-color);
+    border-radius: 5px;
+    padding: 8px 14px;
+    overflow: auto;
+}

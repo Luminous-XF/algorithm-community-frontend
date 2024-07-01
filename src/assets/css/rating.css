@@ -10,7 +10,7 @@
 }
 
 /* 题目列表卡片样式 */
-.rating-container .rating-container-card {
+.rating-container .el-card {
     caret-color: transparent;
     width: 1200PX; !important;
     max-width: 100%; !important;

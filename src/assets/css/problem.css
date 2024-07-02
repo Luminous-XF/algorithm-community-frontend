@@ -52,15 +52,19 @@
     margin-top: -14px;
 }
 
+
+/* 自定义 h3 标签布局 */
 .problem-container h3 {
     margin-bottom: 14px;
     margin-top: 20px;
 }
 
+/* 自定义样例展示面板布局 */
 .problem-container .pre-container {
     position: relative;
 }
 
+/* 自定义样例展示面板 copy 按钮布局 */
 .problem-container .pre-container .copy-button {
     position: absolute;
     top: 6px; /* 调整为复制按钮相对于 <pre> 标签顶部的距离 */
@@ -70,9 +74,36 @@
     height: 16px;
 }
 
+/* 自定义样例展示面板布局 */
 .problem-container .problem-sample-test-list pre {
     border: 1px solid var(--global-light-theme-main-color);
     border-radius: 5px;
     padding: 8px 14px;
     overflow: auto;
+}
+
+/* 自定义样例展示面板 copy 按钮点击后复制成功提示弹窗样式 */
+.el-popper {
+    border: 1px solid var(--global-light-theme-main-color);
+    background: red;
+}
+
+
+
+/*
+* 代码编辑器
+*/
+/* 自定义代码编辑器头部布局 */
+.problem-container .problem-code-editor .code-editor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.problem-container .problem-code-editor .ace_editor {
+    height: 500px
+}
+
+.problem-container .problem-code-editor .ace_editor .ace_gutter {
+    background: #EEEEEE;
 }

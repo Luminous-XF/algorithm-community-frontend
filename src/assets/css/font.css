@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('@/assets/font/OpenSans/OpenSans-VariableFont_wdth,wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Concert One";
+    src: url("@/assets/font/ConcertOne/ConcertOne-Regular.ttf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Noto Sans";
+    src: url("@/assets/font/NotoSans/NotoSansSC-VariableFont_wght.ttf");
+    font-weight: 400;
+    font-style: normal;
+    unicode-range: U+4E00-9FFF;
+}

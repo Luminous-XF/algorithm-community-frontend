@@ -1,0 +1,19 @@
+/*
+ * 自定义 Markdown 渲染样式
+ */
+.md-editor-preview {
+    font-size: 18px;
+    color: var(--global-light-theme-main-color);
+    font-family: "Open Sans", "Noto Sans";
+    font-synthesis: weight style;
+    word-break: break-word;
+}
+
+
+.md-editor-preview em {
+    font-weight: bold;
+}
+
+.md-editor-preview p {
+
+}

@@ -5,19 +5,15 @@
 /* 总过题排名页容器样式 */
 .problem-container {
     margin-top: 20px;
-    display: flex;
-!important;
-    justify-content: center;
-!important;
+    display: flex; !important;
+    justify-content: center; !important;
 }
 
 /* 题目列表卡片样式 */
 .problem-container .el-card {
     caret-color: transparent;
-    width: 1000PX;
-!important;
-    max-width: 100%;
-!important;
+    width: 1000PX; !important;
+    max-width: 100%; !important;
     border: 0;
     background-color: var(--global-light-theme-bgcolor);
 }
@@ -30,20 +26,31 @@
 /* 自定义卡片头部标题样式 */
 .problem-container .el-card .el-card__header {
     color: var(--global-light-theme-main-color);
-    font-size: 21px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 /* 取消卡片四周阴影 */
 .problem-container .el-card.is-always-shadow {
     box-shadow: none;
-
 }
 
-/* 设置 Markdown 渲染样式 */
-.problem-container .md-editor-preview {
-    font-size: 18px;
-    color: var(--global-light-theme-main-color);
+
+/*
+ * 问题描述面板样式
+ */
+.problem-container .problem-description {
+    min-height: 32px;
+}
+
+/* 输入描述面板样式 */
+.problem-container .problem-input {
+    min-height: 32px;
+}
+
+/* 输出描述面板样式 */
+.problem-container .problem-output {
+    min-height: 32px;
 }
 
 /* 自定义 Markdown 渲染部分布局 */
@@ -55,8 +62,9 @@
 
 /* 自定义 h3 标签布局 */
 .problem-container h3 {
+    font-size: 21px;
     margin-bottom: 14px;
-    margin-top: 20px;
+    margin-top: 36px;
 }
 
 /* 自定义样例展示面板布局 */
@@ -88,6 +96,12 @@
     background: red;
 }
 
+/* 样例输入输出展示面板样式 */
+.problem-container .problem-sample-test .pre-container {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 
 /*
@@ -98,12 +112,48 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
+/* 自定义代码编辑器头部代码语言选择器样式 */
+.problem-container .problem-code-editor .code-editor-header .code-editor-lang-selector {
+    width: 180px;
+}
+
+
+/* 自定义代码编辑器面板样式 */
 .problem-container .problem-code-editor .ace_editor {
-    height: 500px
+    height: 600px;
+    border: 1px solid #EEEEEE;
+    font-size: 18px;
 }
 
+/* 自定义代码编辑器左边行号面板样式 */
 .problem-container .problem-code-editor .ace_editor .ace_gutter {
     background: #EEEEEE;
+}
+
+/* 取消代码编辑器面板中的竖线 */
+.problem-container .ace_print-margin {
+    height: 0;
+}
+
+/* 代码提交按钮样式 */
+.problem-container .problem-submit-button {
+    color: var(--global-light-theme-main-color);
+    margin-top: 32px;
+    border: 1px solid var(--global-light-theme-main-color);
+}
+
+/* 代码提交按钮指针悬停样式 */
+.problem-container .problem-submit-button:hover {
+    background: transparent;
+    border: 1px solid var(--global-light-theme-main-color);
+    color: var(--global-light-theme-main-color);
+    transform: scale(1.008);
+}
+
+/* 代码提交按钮指针点击样式 */
+.problem-container .problem-submit-button:active {
+    transform: scale(0.95);
 }

@@ -1,0 +1,151 @@
+/*
+* 提交状态详情页样式
+ */
+
+/* 总过题排名页容器样式 */
+.submission-container {
+    margin-top: 20px;
+    display: flex; !important;
+    justify-content: center; !important;
+}
+
+/* 题目列表卡片样式 */
+.submission-container .el-card {
+    caret-color: transparent;
+    width: 1068PX; !important;
+    max-width: 100%; !important;
+    border: 0;
+    background-color: var(--global-light-theme-bgcolor);
+}
+
+/* 自定义卡片头部样式 */
+.submission-container .el-card .el-card__header {
+    border-bottom: 2px solid var(--global-light-theme-main-color);
+}
+
+/* 自定义卡片头部标题样式 */
+.submission-container .el-card .el-card__header {
+    color: var(--global-light-theme-main-color);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* 取消卡片四周阴影 */
+.submission-container .el-card.is-always-shadow {
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+/*
+ 提交状态
+*/
+/* 提交状态布局样式 */
+.submission-container .submission-table {
+    display: flex;
+    justify-content: center;
+    color: var(--global-light-theme-main-color);
+    /*border-bottom: 1px solid var(--global-light-theme-main-color);*/
+    border-bottom: 0;
+}
+
+/* 提交状态列表表头样式*/
+.submission-container .submission-table thead {
+    color: var(--global-light-theme-main-color);
+    /*font-size: 16px;*/
+}
+
+/* 提交状态列表样式 */
+/*.submission-container .submission-table .el-table__row td.el-table__cell {*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*提交状态列表边框样式*/
+.submission-container .submission-table .el-table__inner-wrapper:before {
+    content: none;
+}
+
+.submission-container .submission-table td.el-table__cell {
+    border-bottom: 0;
+}
+
+.submission-container .submission-table tr.el-table__row {
+    border-left: 1px solid var(--global-light-theme-main-color);
+    border-right: 1px solid var(--global-light-theme-main-color);
+}
+
+.submission-container .submission-table th.el-table__cell.is-leaf {
+    border-bottom: 1px solid var(--global-light-theme-main-color);
+}
+
+/* 提交状态信息-Judgement 样式 */
+/* 0-Pending */
+.submission-container .submission-table .submission-item-judgement-pending {
+    color: #9E9E9E;
+}
+
+/* 1-Judging */
+.submission-container .submission-table .submission-item-judgement-time-limit-judging {
+    color: #4DD0E1;
+}
+
+/* 2-Accept */
+.submission-container .submission-table .submission-item-judgement-accept {
+    color: #8BC34A; !important;
+}
+
+/* 3-Wrong Answer */
+.submission-container .submission-table .submission-item-judgement-wrong-ans {
+    color: #FF5722; !important;
+}
+
+/* 4-Runtime Error */
+.submission-container .submission-table .submission-item-judgement-runtime-error {
+    color: #FF5722; !important;
+}
+
+/* 5-Time Limit Exceeded */
+.submission-container .submission-table .submission-item-judgement-time-limit-exceeded {
+    color: #FFC107; !important;
+}
+
+/* 提交状态信息-Judgement icon 样式 */
+.submission-container .submission-table .submission-item-judgement-icon {
+    margin-right: 3px;
+}
+
+
+
+/*
+* 测试点通过情况 icon 列表样式
+*/
+.submission-container .testcase-list-container {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.submission-container .testcase-list-container .testcase-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/*
+* 提交代码展示面板
+ */
+.submission-container .code-preview-container {
+    margin-top: 30px;
+}
+
+.submission-container .code-preview-container .md-editor-preview-wrapper {
+    padding: 0;
+}
+
+.submission-container .code-preview-container .code-preview-title {
+    margin-bottom: -5px;
+}

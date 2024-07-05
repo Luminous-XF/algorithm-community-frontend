@@ -3,7 +3,7 @@ import Header from './header/header.vue'
 </script>
 
 <template>
-    <div class="common-layout">
+    <div class="common-layout-container">
         <el-container>
             <el-header>
                 <Header></Header>

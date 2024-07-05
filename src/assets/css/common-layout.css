@@ -1,34 +1,36 @@
 /*
     导航栏
 */
-
-.common-layout header {
+.common-layout-container .header-container {
     padding: 0;
     caret-color: transparent;
 }
 
-.header .el-menu--horizontal {
+/* 自定义导航栏面板布局样式 */
+.common-layout-container .header-container .el-menu--horizontal {
     justify-content: center;
     border-bottom: 0;
 }
 
-
-
-.header .header-menu-icon {
+/* 导航栏菜单 icon 样式 */
+.common-layout-container .header-container .header-menu-icon {
     margin-bottom: 5px;
     margin-right: 3px;
 }
 
-.header-get-started {
-    margin-left: 120px;
-}
 
-.header-profile {
+/*
+* 导航栏右侧开始按钮
+*/
+/* 导航栏开始按钮布局样式 */
+.common-layout-container .header-container .header-get-started {
     margin-left: 120px;
     display: flex;
+    align-items: center;
 }
 
-.header .header-menu-get-started button {
+/* 导航栏开始按钮样式 */
+.common-layout-container .header-container .header-menu-get-started button {
     background-color: transparent;
     cursor: pointer;
     border: 1px solid var(--global-light-theme-main-color);
@@ -37,34 +39,45 @@
     transition: all 0.5s ease-in-out;
 }
 
-.header .header-profile .header-profile-item {
+
+/*
+* 导航栏右侧用户信息
+*/
+/* 导航栏用户信息布局样式 */
+.common-layout-container .header-container .header-profile {
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+}
+
+/* 导航栏用户信息布局样式 */
+.common-layout-container .header-container .header-profile .header-profile-item {
     background-color: transparent;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
 }
 
-.header .header-profile .header-profile-item p {
+/* 导航栏用户信息样式 */
+.common-layout-container .header-container .header-profile .header-profile-item p {
     font-size: 14px;
     color: var(--global-light-theme-main-color);
     margin-left: 10px;
 }
 
-.el-scrollbar .el-dropdown-menu__item {
-    color: var(--global-light-theme-main-color);
-}
-
-.header-profile-dropdown li span {
-    margin: 5px;
-}
-
-.header-profile-dropdown {
+/* 导航栏用户信息下拉列表布局 */
+.common-layout-container .header-container .header-profile-dropdown {
     width: 230px;
     caret-color: transparent;
 }
 
-/*.common-layout .main-container {*/
-/*    display: flex;*/
-/*}*/
+/* 导航栏用户信息下拉列表样式 */
+.common-layout-container .header-container .el-scrollbar .el-dropdown-menu__item {
+    color: var(--global-light-theme-main-color);
+}
 
+/* 导航栏用户信息下拉列表项布局 */
+.common-layout-container .header-container .header-profile-dropdown li span {
+    margin: 5px;
+}
 

@@ -1,6 +1,7 @@
 <script setup>
 import RatingList from "./rating-list.vue";
 import RatingPagination from "./rating-pagination.vue";
+import '@/assets/css/rating.css';
 
 </script>
 

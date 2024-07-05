@@ -1,5 +1,6 @@
 <script setup>
 import {ref, reactive} from 'vue';
+import '@/assets/css/problem.css';
 
 // AceEditorPreview
 import {MdPreview} from 'md-editor-v3';

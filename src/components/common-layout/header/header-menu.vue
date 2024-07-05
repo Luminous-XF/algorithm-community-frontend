@@ -74,13 +74,13 @@ const useMenus = ref([
             </el-menu-item>
 
 
-<!--            <el-menu-item class="header-menu-profile">-->
-<!--                <HeaderProfile></HeaderProfile>-->
-<!--            </el-menu-item>-->
-
-            <el-menu-item class="header-menu-get-started">
-                <HeaderGetStarted></HeaderGetStarted>
+            <el-menu-item class="header-menu-profile">
+                <HeaderProfile></HeaderProfile>
             </el-menu-item>
+
+<!--            <el-menu-item class="header-menu-get-started">-->
+<!--                <HeaderGetStarted></HeaderGetStarted>-->
+<!--            </el-menu-item>-->
         </el-menu>
     </div>
 </template>

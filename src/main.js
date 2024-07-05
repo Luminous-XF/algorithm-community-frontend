@@ -4,11 +4,6 @@ import App from './App.vue';
 import router from './router/index.js';
 import '@/assets/css/font.css';
 import '@/assets/css/common-layout.css';
-import '@/assets/css/problem-set.css';
-import '@/assets/css/login.css';
-import '@/assets/css/status.css';
-import '@/assets/css/rating.css';
-import '@/assets/css/problem.css';
 import '@icon-park/vue-next/styles/index.css';
 
 createApp(App)

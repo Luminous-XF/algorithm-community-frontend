@@ -1,6 +1,7 @@
 <script setup>
 import {ref, reactive} from "vue";
 import {useRouter} from "vue-router";
+import '@/assets/css/login.css';
 
 const form = reactive({
     username: '',

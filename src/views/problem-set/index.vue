@@ -1,6 +1,8 @@
 <script setup>
 import ProblemList from "./problem-list.vue";
 import ProblemListPagination from "@/views/problem-set/problem-list-pagination.vue";
+import '@/assets/css/problem-set.css';
+
 
 </script>
 

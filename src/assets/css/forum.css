@@ -50,6 +50,7 @@
     padding-inline-start: 0;
 }
 
+/* 自定义帖子卡片样式 */
 .post-card-list .post-card-item {
     border: 1px solid var(--global-light-theme-main-color);
     box-shadow: none;
@@ -60,10 +61,12 @@
     align-items: center;
 }
 
+/* 自定义帖子卡片布局 */
 .post-card-list .post-card-item .el-card__body {
     padding: 0;
 }
 
+/* 帖子卡片首图样式 */
 .post-card-list .post-card-item .post-card-header-image {
     width: 264px;
     border-radius: 10px;
@@ -71,6 +74,7 @@
     float: left;
 }
 
+/* 帖子卡片帖子右边内容栏样式 */
 .post-card-list .post-card-item .post-card-content {
     height: 176px;
     width: 400px;
@@ -79,6 +83,7 @@
     float: right;
 }
 
+/* 帖子卡片-帖子标题样式 */
 .post-card-list .post-card-content .post-card-title {
     font-size: 18px;
     color: var(--global-light-theme-main-color);
@@ -86,29 +91,34 @@
     font-family: "Open Sans", "Noto Sans";
 }
 
-.post-card-list .post-card-content .post-card-info {
-    position: absolute;
-    display: flex;
-    bottom: 0;
-}
-
+/* 帖子卡片-帖子摘要样式 */
 .post-card-list .post-card-content .post-card-excerpt {
     margin-top: 14px;
     color: var(--global-light-theme-main-color);
     font-family: "Open Sans", "Noto Sans";
 }
 
+/* 自定义帖子卡片-帖子标题摘要样式 */
 .post-card-list .post-card-content .el-text {
     font-size: 14px;
     color: var(--global-light-theme-main-color);
 }
 
+/* 帖子卡片-帖子信息布局 */
+.post-card-list .post-card-content .post-card-info {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+}
+
+/* 帖子卡片-帖子信息布局 */
 .post-card-list .post-card-content .post-card-info div {
     display: flex;
     align-items: center;
     margin-right: 12px;
 }
 
+/* 帖子卡片-帖子信息布局 */
 .post-card-list .post-card-content .post-card-info span {
     font-size: 12px;
     margin-left: 3px;

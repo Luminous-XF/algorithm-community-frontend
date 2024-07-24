@@ -1,13 +1,8 @@
-/*
- 登录页
- */
-
-/* 登录表单卡片样式 */
-.main-container .login-container {
+.login-container {
     caret-color: transparent;
 }
 
-.main-container .login-container .el-card {
+.login-container .el-card {
     width: 940px;
     height: 540px;
     margin: 100px auto;
@@ -18,121 +13,54 @@
 }
 
 /* 图片样式 */
-.main-container .login-container .el-card img {
+.login-container .el-card img {
     width: 400px;
 }
 
 /* 登录表单样式 */
-.main-container .login-container .el-card .el-form {
+.login-container .el-card__body {
     display: flex;
+    margin-top: 50px;
+    height: 460px;
 }
 
-.main-container .login-container .login-item {
+.login-container .login-item {
     margin-left: 35px;
+    margin-top: -30px;
 }
 
-.main-container .login-container .login-item .el-tabs {
+.login-container .login-item .el-tabs {
     width: 440px;
 }
 
 /* 自定义头部横线样式 */
-.main-container .login-container .login-item .el-tabs__nav-wrap.is-top::after {
+.login-container .login-item .el-tabs__nav-wrap.is-top::after {
     content: none;
 }
 
-.main-container .login-container .login-item .el-tabs__nav-scroll {
+.login-container .login-item .el-tabs__nav-scroll {
     border-bottom: 1px solid var(--global-light-theme-main-color);
     margin-bottom: 10px;
 }
 
 /* 自定义头部标签样式 */
-.main-container .login-container .login-item  .el-tabs__item {
+.login-container .login-item  .el-tabs__item {
     color: var(--global-light-theme-main-color);
 }
 
 /* 自定义头部标签选中样式 */
-.main-container .login-container .login-item .el-tabs__item.is-active {
+.login-container .login-item .el-tabs__item.is-active {
     color: var(--global-light-theme-main-color);
     font-weight: bold;
 }
 
-.main-container .login-container .login-item .el-tabs__active-bar.is-top {
+.login-container .login-item .el-tabs__active-bar.is-top {
     background-color: var(--global-light-theme-main-color); !important;
 }
 
-/* 子帝国一头部标签指针悬浮样式 */
-.main-container .login-container .login-item .el-tabs__item:hover {
+/* 自定义一头部标签指针悬浮样式 */
+.login-container .login-item .el-tabs__item:hover {
     color: var(--global-light-theme-main-color);
     font-weight: bold;
     font-size: 100%;
-}
-
-/* 调整 input 输入框位置 */
-.main-container .login-container .login-item .el-tabs__content {
-    margin-left: -10px;
-}
-
-/* 自定义 input 输入框边框样式 */
-.main-container .login-container .login-item .el-input__wrapper {
-    box-shadow: 0 0 0 1px var(--global-light-theme-main-color);
-}
-
-.main-container .login-container .login-item .el-input {
-    padding-left: 10px;
-    padding-right: 1px;
-    padding-top: 5px;
-    margin-bottom: 20px;
-}
-
-/* 显示 input 输入框光标 */
-.main-container .login-container .login-item .el-input__inner {
-    caret-color: var(--global-light-theme-main-color);
-    color: var(--global-light-theme-main-color);
-}
-
-/* input 输入框上方标题样式 */
-.main-container .login-container .login-item .input-title {
-    padding-left: 10px;
-    font-weight: bold;
-}
-
-.main-container .login-container .login-item .el-button {
-    background-color: transparent;
-    color: var(--global-light-theme-main-color);
-    border: 1px solid var(--global-light-theme-main-color);
-    width: 120px;
-    margin-top: 16px;
-    margin-left: 10px;
-}
-
-.main-container .login-container .login-item .el-button:hover {
-    color: var(--global-light-theme-main-color);
-    border: 2px solid var(--global-light-theme-main-color);
-    font-weight: bold;
-}
-
-
-
-/*
- 注册页
- */
-/* 验证码按钮样式 */
-.main-container .login-container .login-item .verification-code-item {
-    position: relative;
-}
-
-.main-container .login-container .login-item .verification-code-item .el-link {
-    position: absolute;
-    right: 10px;
-    top: 12px;
-    font-size: 12px;
-    color: var(--global-light-theme-main-color);
-}
-
-.main-container .login-container .login-item .verification-code-item .el-link:hover {
-    font-weight: bold;
-}
-
-.main-container .login-container .login-item .verification-code-item .el-link::after {
-    content: none;
 }
